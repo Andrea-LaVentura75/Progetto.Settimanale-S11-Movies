@@ -1,0 +1,54 @@
+<main class="imgBg">
+  <div class="container h-100 d-flex flex-column justify-content-center">
+    <h1
+      class="h3 mb-3 fw-normal text-center p-1 text-warning rounded-4 text-bg-dark"
+    >
+      Effettua la registrazione
+    </h1>
+    <form>
+      <input
+        type="text"
+        class="form-control mb-3"
+        placeholder="Nome"
+        name="nome"
+        [(ngModel)]="formObj.name"
+        (ngModelChange)="checkFormValid()"
+        required
+      />
+      <input
+        type="text"
+        class="form-control mb-3"
+        placeholder="Cognome"
+        name="cognome"
+        [(ngModel)]="formObj.cognome"
+        (ngModelChange)="checkFormValid()"
+        required
+      />
+      <input
+        type="email"
+        class="form-control mb-3"
+        placeholder="Email"
+        name="email"
+        [(ngModel)]="formObj.email"
+        (ngModelChange)="checkFormValid()"
+        required
+      />
+      <input
+        type="password"
+        class="form-control mb-3"
+        placeholder="Password"
+        name="password"
+        [(ngModel)]="formObj.password"
+        (ngModelChange)="checkFormValid()"
+        required
+      />
+      <button
+        [disabled]="!isFormValid"
+        (click)="register()"
+        class="btn btn-warning w-100 py-2 fw-bold"
+      >
+        Registrati
+      </button>
+    </form>
+  </div>
+</main>

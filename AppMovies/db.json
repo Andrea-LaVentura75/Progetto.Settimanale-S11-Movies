@@ -1,0 +1,263 @@
+{
+  "users": [
+    {
+      "email": "aaaaaa@gmail.com",
+      "password": "$2a$10$ZvLuOsnSok86AZlMQ3rVs.a1EVTdLhCCZVDV2M8IHlcH9No8KxBCq",
+      "name": "aaaa",
+      "cognome": "aaaaaa",
+      "id": 1
+    },
+    {
+      "email": "gggg@gmail.com",
+      "password": "$2a$10$WkZVfxv/KtRJSZ2ryyrq5u7lnVyTznv7BloeaNJSQsjCCryfMjaiS",
+      "name": "lll",
+      "cognome": "llll",
+      "id": 2
+    },
+    {
+      "email": "rrrrrrrrr@gmail.com",
+      "password": "$2a$10$z7XOd/c0vK4wWyBnY3aCEu5MiRbHmAnvnu.nr6KqAyD7NJOmzyPj.",
+      "name": "aaaaa",
+      "cognome": "wwwww",
+      "id": 3
+    },
+    {
+      "email": "lv@gmail.com",
+      "password": "$2a$10$8ceXN/YpJ19MeDH/4cQlueKuSUruLdFa1wQIJakEDC6EH035eWiE2",
+      "name": "Andrea",
+      "cognome": "La Ventura",
+      "id": 4
+    },
+    {
+      "email": "marco@gmail.com",
+      "password": "$2a$10$GlIX8SLTMPOWgSJIGhPtJevKp9M2g5W6UL/SDjjnQdDxYk5FNMK6y",
+      "name": "marco",
+      "cognome": "kkk",
+      "id": 5
+    }
+  ],
+  "film": [
+    {
+      "id": 1,
+      "nome": "Inception",
+      "anno": 2010,
+      "durata": 148,
+      "descrizione": "Un ladro che entra nei sogni delle persone per rubare segreti.",
+      "categoria": "Sci-fi",
+      "immagine": "https://i0.wp.com/www.telefilm-central.org/wp-content/uploads/2017/09/inception-poster.jpg?fit=1000%2C600&ssl=1"
+    },
+    {
+      "id": 2,
+      "nome": "The Godfather",
+      "anno": 1972,
+      "durata": 175,
+      "descrizione": "La storia di una potente famiglia mafiosa negli Stati Uniti.",
+      "categoria": "Dramma",
+      "immagine": "https://cdn.streamingcommunity.computer/images/37beda03-f1c5-4958-9456-b696b9d8918f.webp"
+    },
+    {
+      "id": 3,
+      "nome": "The Dark Knight",
+      "anno": 2008,
+      "durata": 152,
+      "descrizione": "Batman affronta il Joker per salvare Gotham City.",
+      "categoria": "Azione",
+      "immagine": "https://cdn.streamingcommunity.computer/images/a878646f-c51a-46ee-bc56-222222b1d758.webp"
+    },
+    {
+      "id": 4,
+      "nome": "Pulp Fiction",
+      "anno": 1994,
+      "durata": 154,
+      "descrizione": "Le storie intrecciate di personaggi criminali a Los Angeles.",
+      "categoria": "Crimine",
+      "immagine": "https://cdn.streamingcommunity.computer/images/ecb90d30-83f5-4132-813b-55e80f5719ab.webp"
+    },
+    {
+      "id": 5,
+      "nome": "The Shawshank Redemption",
+      "anno": 1994,
+      "durata": 142,
+      "descrizione": "Un uomo ingiustamente incarcerato cerca la redenzione.",
+      "categoria": "Dramma",
+      "immagine": "https://cdn.streamingcommunity.computer/images/fdfd46af-000f-4332-a319-ade59ea335ea.webp"
+    },
+    {
+      "id": 6,
+      "nome": "Forrest Gump",
+      "anno": 1994,
+      "durata": 142,
+      "descrizione": "La vita straordinaria di un uomo semplice con un grande cuore.",
+      "categoria": "Drammatico",
+      "immagine": "https://cdn.streamingcommunity.computer/images/0120b83e-8833-496e-a66a-5971a22649c8.webp"
+    },
+    {
+      "id": 7,
+      "nome": "Star Wars: A New Hope",
+      "anno": 1977,
+      "durata": 121,
+      "descrizione": "Un giovane si unisce alla Ribellione per combattere l'Impero.",
+      "categoria": "Fantascienza",
+      "immagine": "https://cdn.streamingcommunity.computer/images/971a3d30-f0ab-439a-886f-498f0a01891e.webp"
+    },
+    {
+      "id": 8,
+      "nome": "The Matrix",
+      "anno": 1999,
+      "durata": 136,
+      "descrizione": "Un hacker scopre la verità su una realtà simulata.",
+      "categoria": "Fantascienza",
+      "immagine": "https://cdn.streamingcommunity.computer/images/1785cca3-c1cd-451a-8cd8-111a0f9e3a2f.webp"
+    },
+    {
+      "id": 9,
+      "nome": "Fight Club",
+      "anno": 1999,
+      "durata": 139,
+      "descrizione": "Un impiegato insoddisfatto fonda un club di lotta clandestino.",
+      "categoria": "Dramma",
+      "immagine": "https://cdn.streamingcommunity.computer/images/517c3bee-02ec-458d-bc8b-bb4bca61f1cb.webp"
+    },
+    {
+      "id": 10,
+      "nome": "Gladiator",
+      "anno": 2000,
+      "durata": 155,
+      "descrizione": "Un generale romano cerca vendetta dopo il tradimento dell'imperatore.",
+      "categoria": "Storico",
+      "immagine": "https://cdn.streamingcommunity.computer/images/7f97cd91-a493-4d80-94f6-e88efa8a4ad8.webp"
+    },
+    {
+      "id": 11,
+      "nome": "Interstellar",
+      "anno": 2014,
+      "durata": 169,
+      "descrizione": "Un gruppo di astronauti cerca un nuovo pianeta abitabile.",
+      "categoria": "Fantascienza",
+      "immagine": "https://cdn.streamingcommunity.computer/images/0c58ae61-a4e1-4320-9bf6-1569500e0176.webp"
+    },
+    {
+      "id": 12,
+      "nome": "The Lion King",
+      "anno": 1994,
+      "durata": 88,
+      "descrizione": "Un giovane leone fugge dopo la morte del padre, ma deve ritornare per reclamare il trono.",
+      "categoria": "Animazione",
+      "immagine": "https://cdn.streamingcommunity.computer/images/7d7acb65-8037-42ec-9361-cfb884844a75.webp"
+    },
+    {
+      "id": 13,
+      "nome": "Titanic",
+      "anno": 1997,
+      "durata": 195,
+      "descrizione": "Una storia d'amore a bordo del famigerato transatlantico affondato.",
+      "categoria": "Romantico",
+      "immagine": "https://cdn.streamingcommunity.computer/images/82593ddb-fe7f-4186-8cc1-9cd5e951d2ac.webp"
+    },
+    {
+      "id": 14,
+      "nome": "Avatar",
+      "anno": 2009,
+      "durata": 162,
+      "descrizione": "Un soldato paraplegico partecipa a una missione su un pianeta alieno.",
+      "categoria": "Fantascienza",
+      "immagine": "https://cdn.streamingcommunity.computer/images/abe1fae4-0ced-41b7-95fb-c32efded091f.webp"
+    },
+    {
+      "id": 15,
+      "nome": "The Lord of the Rings: The Fellowship of the Ring",
+      "anno": 2001,
+      "durata": 178,
+      "descrizione": "Un gruppo di eroi cerca di distruggere un anello malvagio.",
+      "categoria": "Fantasy",
+      "immagine": "https://cdn.streamingcommunity.computer/images/de766c8f-d683-464f-9e1c-d9fadb1722eb.webp"
+    },
+    {
+      "id": 16,
+      "nome": "The Avengers",
+      "anno": 2012,
+      "durata": 143,
+      "descrizione": "Supereroi si uniscono per salvare il mondo da una minaccia aliena.",
+      "categoria": "Azione",
+      "immagine": "https://cdn.streamingcommunity.computer/images/acfe2f33-a77c-4194-b0c4-9436e2f98a65.webp"
+    },
+    {
+      "id": 17,
+      "nome": "Jaws",
+      "anno": 1975,
+      "durata": 124,
+      "descrizione": "Un enorme squalo terrorizza una cittadina costiera.",
+      "categoria": "Horror",
+      "immagine": "https://cdn.streamingcommunity.computer/images/530c9951-0a2c-4667-9e94-8d8c9e546425.webp"
+    },
+    {
+      "id": 18,
+      "nome": "Jurassic Park",
+      "anno": 1993,
+      "durata": 127,
+      "descrizione": "Dei turisti visitano un parco a tema con dinosauri clonati.",
+      "categoria": "Avventura",
+      "immagine": "https://cdn.streamingcommunity.computer/images/7f4572a3-0e7b-43d0-9f12-5e6ed8449833.webp"
+    },
+    {
+      "id": 19,
+      "nome": "The Silence of the Lambs",
+      "anno": 1991,
+      "durata": 118,
+      "descrizione": "Una giovane agente dell'FBI cerca di catturare un serial killer con l'aiuto di un altro killer.",
+      "categoria": "Thriller",
+      "immagine": "https://cdn.streamingcommunity.computer/images/45687806-4841-4a08-b967-98b6e9191cc5.webp"
+    },
+    {
+      "id": 20,
+      "nome": "Schindler's List",
+      "anno": 1993,
+      "durata": 195,
+      "descrizione": "Un industriale tedesco salva migliaia di ebrei durante l'Olocausto.",
+      "categoria": "Storico",
+      "immagine": "https://cdn.streamingcommunity.computer/images/75afb42b-8428-47f0-a4f0-6fe665c7da0d.webp"
+    }
+  ],
+  "favorites": [
+    {
+      "userId": 4,
+      "movieId": 3,
+      "id": 1
+    },
+    {
+      "userId": 4,
+      "movieId": 10,
+      "id": 5
+    },
+    {
+      "userId": 4,
+      "movieId": 14,
+      "id": 6
+    },
+    {
+      "userId": 4,
+      "movieId": 18,
+      "id": 7
+    },
+    {
+      "userId": 4,
+      "movieId": 9,
+      "id": 8
+    },
+    {
+      "userId": 4,
+      "movieId": 12,
+      "id": 9
+    },
+    {
+      "userId": 4,
+      "movieId": 1,
+      "id": 10
+    },
+    {
+      "userId": 4,
+      "movieId": 11,
+      "id": 11
+    }
+  ]
+}

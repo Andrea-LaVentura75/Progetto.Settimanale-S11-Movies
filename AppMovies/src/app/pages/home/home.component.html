@@ -1,0 +1,39 @@
+<main class="imgBg">
+  <div class="container">
+    <div class="row">
+      <div class="col-3 my-3" *ngFor="let film of arrayFilm">
+        <div class="card bg-dark border-0">
+          <img [src]="film.immagine" class="card-img-top" alt="..." />
+          <div class="card-body bg-dark">
+            <h5 class="card-title text-warning">{{ film.nome }}</h5>
+            <p class="card-text text-light">
+              {{ film.descrizione }}
+            </p>
+          </div>
+
+          <ul class="list-group list-group-flush bg-dark">
+            <li class="list-group-item bg-dark text-light border-0">
+              Durata: <strong>{{ film.durata }}</strong>
+            </li>
+            <li class="list-group-item bg-dark text-light border-0">
+              Categoria: <strong>{{ film.categoria }}</strong>
+            </li>
+            <li class="list-group-item bg-dark text-light border-0">
+              Anno: <strong>{{ film.anno }}</strong>
+            </li>
+          </ul>
+          <div class="card-body bg-dark">
+            <button
+              (click)="aggiungiFavorito(film.id)"
+              [disabled]="!utente"
+              type="button"
+              class="btn btn-outline-warning"
+            >
+              Aggiungi ai preferiti
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
