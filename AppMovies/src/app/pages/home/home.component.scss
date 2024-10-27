@@ -1,7 +1,20 @@
 .imgBg {
+  position: relative;
+  overflow: hidden;
+}
+
+.imgBg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background-image: url(https://wallpapers.com/images/hd/horror-movie-collage-7477-x-4300-v4a34khnzs7azmor.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  filter: blur(3px);
+  z-index: -1;
 }
